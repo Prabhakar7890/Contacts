@@ -9,12 +9,14 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { UpdateComponent } from './update/update.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import { AddContactComponent } from './add-contact/add-contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactsComponent,
-    UpdateComponent
+    UpdateComponent,
+    AddContactComponent
   ],
   imports: [
     BrowserModule,
